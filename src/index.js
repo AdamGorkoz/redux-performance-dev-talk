@@ -5,8 +5,8 @@ import { Provider } from 'react-redux'
 import registerObserver from 'react-perf-devtool';
 
 
-import App from './improved/App';
-import reducer from './improved/reducers';
+import App from './simple/App';
+import reducer from './simple/reducers';
 
 registerObserver();
 const store = createStore(reducer,
